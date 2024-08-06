@@ -1,4 +1,4 @@
 <?php
 
-$DATABASE_URLD = ${first-db.DATABASE_URL};
+$DATABASE_URLD = ${DATABASE_URL};
 echo $DATABASE_URLD;
