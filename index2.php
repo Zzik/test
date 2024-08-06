@@ -1,4 +1,3 @@
 <?php
 
-$DATABASE_URLD = ${DATABASE_URL};
-echo $DATABASE_URLD;
+echo getenv('DATABASE_URL');

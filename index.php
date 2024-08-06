@@ -1,3 +1,3 @@
 <?php
 
-echo $DATABASE_URL;
+echo $_ENV['DATABASE_URL'];
