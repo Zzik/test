@@ -2,7 +2,7 @@
 
 
 try {
-    $pdo = new PDO($DATABASE_URL);
+    $pdo = new PDO($_ENV['DATABASE_URL']);
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     
     // SQL to insert 3 product items
