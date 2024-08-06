@@ -1,7 +1,7 @@
 <?php
 
 try {
-    $pdo = new PDO($DATABASE_URL);
+    $pdo = new PDO(${DATABASE_URL});
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     
     // SQL to select all items from the product table
