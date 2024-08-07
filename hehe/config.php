@@ -1,9 +1,13 @@
 <?php
 
-define('DB_HOST', 'http://64.226.82.78');
-define('DB_NAME', 'firstdb');
+define('DB_HOST', 'localhost');
+define('DB_NAME', 'first_db');
 define('DB_USER', 'root');
-define('DB_PASS', 'ZxpMzs!F8Zb34(N');
+define('DB_PASS', '');
+// define('DB_HOST', '64.226.82.78');
+// define('DB_NAME', 'firstdb');
+// define('DB_USER', 'sda');
+// define('DB_PASS', 'ZxpMzs!F8Zb34(N');
 
 function getDbConnection()
 {
